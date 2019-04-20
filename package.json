@@ -1,0 +1,29 @@
+{
+    "name": "chatbot_twilio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anirudh9391/ChatBot_Twilio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/anirudh9391/ChatBot_Twilio/issues"
+    },
+    "homepage": "https://github.com/anirudh9391/ChatBot_Twilio#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "mongoose": "^5.5.2",
+        "nexmo": "^2.4.1",
+        "socket.io": "^2.2.0",
+        "twilio": "^3.30.1"
+    }
+}
